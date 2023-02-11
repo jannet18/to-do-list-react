@@ -3,13 +3,13 @@ import firebase from 'firebase/compat/app';
 import 'firebase/compat/firestore';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBYMbyUDz5b6Iu-XHWR9kzBCQzyRuQqfTY",
-    authDomain: "to-do-list-react-1411c.firebaseapp.com",
-    projectId: "to-do-list-react-1411c",
-    storageBucket: "to-do-list-react-1411c.appspot.com",
-    messagingSenderId: "244701184572",
-    appId: "1:244701184572:web:147b1629a8abfa33bdf939",
-    measurementId: "G-M2V02H9WM7"
+  apiKey: "AIzaSyAckasvUpqnF4zCJfwZlDVvqyzUNZpvB5o",
+  authDomain: "todos-react-49318.firebaseapp.com",
+  projectId: "todos-react-49318",
+  storageBucket: "todos-react-49318.appspot.com",
+  messagingSenderId: "629732386661",
+  appId: "1:629732386661:web:4a8ad130f289d922f6e38c",
+  measurementId: "G-EF6N0JJK7R"
   };
   const firebaseApp = firebase.initializeApp(firebaseConfig)
   const db = firebaseApp.firestore()
